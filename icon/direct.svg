@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="vg" gradientUnits="userSpaceOnUse" x1="0" y1="35.5" x2="0" y2="323.5">
+      <stop offset="0" stop-color="#58996B"/>
+      <stop offset="1" stop-color="#00FF80"/>
+    </linearGradient>
+    <radialGradient id="shadeOuter" gradientUnits="userSpaceOnUse" cx="179.5" cy="179.5" r="144.0">
+      <stop offset="0.9097" stop-color="#000000" stop-opacity="0.000"/>
+      <stop offset="0.9236" stop-color="#000000" stop-opacity="0.010"/>
+      <stop offset="0.9306" stop-color="#000000" stop-opacity="0.018"/>
+      <stop offset="0.9410" stop-color="#000000" stop-opacity="0.034"/>
+      <stop offset="0.9514" stop-color="#000000" stop-opacity="0.057"/>
+      <stop offset="0.9618" stop-color="#000000" stop-opacity="0.084"/>
+      <stop offset="0.9722" stop-color="#000000" stop-opacity="0.122"/>
+      <stop offset="0.9826" stop-color="#000000" stop-opacity="0.172"/>
+      <stop offset="0.9931" stop-color="#000000" stop-opacity="0.206"/>
+      <stop offset="1.0000" stop-color="#000000" stop-opacity="0.250"/>
+    </radialGradient>
+    <radialGradient id="shadeHole" gradientUnits="userSpaceOnUse" cx="179.5" cy="179.5" r="113">
+      <stop offset="0.8938" stop-color="#000000" stop-opacity="0.250"/>
+      <stop offset="0.9071" stop-color="#000000" stop-opacity="0.199"/>
+      <stop offset="0.9204" stop-color="#000000" stop-opacity="0.149"/>
+      <stop offset="0.9336" stop-color="#000000" stop-opacity="0.110"/>
+      <stop offset="0.9469" stop-color="#000000" stop-opacity="0.074"/>
+      <stop offset="0.9602" stop-color="#000000" stop-opacity="0.045"/>
+      <stop offset="0.9735" stop-color="#000000" stop-opacity="0.018"/>
+      <stop offset="0.9867" stop-color="#000000" stop-opacity="0.011"/>
+      <stop offset="1.0000" stop-color="#000000" stop-opacity="0.000"/>
+    </radialGradient>
+    <radialGradient id="shadeDisc" gradientUnits="userSpaceOnUse" cx="179.5" cy="179.5" r="65.0">
+      <stop offset="0.7692" stop-color="#000000" stop-opacity="0.002"/>
+      <stop offset="0.8154" stop-color="#000000" stop-opacity="0.003"/>
+      <stop offset="0.8385" stop-color="#000000" stop-opacity="0.016"/>
+      <stop offset="0.8615" stop-color="#000000" stop-opacity="0.034"/>
+      <stop offset="0.8846" stop-color="#000000" stop-opacity="0.060"/>
+      <stop offset="0.9077" stop-color="#000000" stop-opacity="0.085"/>
+      <stop offset="0.9308" stop-color="#000000" stop-opacity="0.133"/>
+      <stop offset="0.9538" stop-color="#000000" stop-opacity="0.172"/>
+      <stop offset="0.9769" stop-color="#000000" stop-opacity="0.227"/>
+      <stop offset="1.0000" stop-color="#000000" stop-opacity="0.250"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="179.5" cy="179.5" r="144.0" fill="url(#vg)"/>
+  <circle cx="179.5" cy="179.5" r="144.0" fill="url(#shadeOuter)"/>
+  <circle cx="179.5" cy="179.5" r="113" fill="url(#shadeHole)"/>
+  <circle cx="179.5" cy="179.5" r="101.0" fill="#ffffff"/>
+  <circle cx="179.5" cy="179.5" r="65.0" fill="url(#vg)"/>
+  <circle cx="179.5" cy="179.5" r="65.0" fill="url(#shadeDisc)"/>
+</svg>
